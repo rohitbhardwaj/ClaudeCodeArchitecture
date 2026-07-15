@@ -1,0 +1,8 @@
+/CLAUDE.md                                      @architecture-team
+/api/**                                        @api-owner
+/.github/workflows/**                          @platform-team
+/docs/security/**                              @security-team
+/docs/runbooks/**                              @platform-team
+
+# Gap:
+# Missing explicit owners for tests and dependency policy.

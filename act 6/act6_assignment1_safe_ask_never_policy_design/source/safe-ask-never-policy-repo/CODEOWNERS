@@ -1,0 +1,10 @@
+/CLAUDE.md                                      @architecture-team
+/docs/policies/**                              @architecture-team
+/docs/security/**                              @security-team
+/api/**                                        @api-owner @architecture-team
+/pom.xml                                       @platform-team @security-team
+/src/main/java/**/payment/**                   @payments-owner @finance-owner
+/src/main/java/**/controller/**                @architecture-team
+/src/test/**                                   @qa-team @architecture-team
+/.github/workflows/**                          @platform-team @security-team
+/.github/pull_request_template/**              @architecture-team

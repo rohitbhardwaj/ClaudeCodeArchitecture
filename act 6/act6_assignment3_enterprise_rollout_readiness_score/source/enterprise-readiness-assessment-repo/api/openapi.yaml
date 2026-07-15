@@ -1,0 +1,7 @@
+openapi: 3.0.0
+info:
+  title: Checkout API
+  version: 1.0.0
+
+# API contract exists.
+# Gap: contract tests are placeholder only.
