@@ -1,0 +1,2 @@
+# ClaudeCodeArchitecture
+Claude Code Architecture
