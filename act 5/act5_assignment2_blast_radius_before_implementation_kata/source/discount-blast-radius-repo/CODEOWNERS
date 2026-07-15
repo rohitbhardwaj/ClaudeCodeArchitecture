@@ -1,0 +1,10 @@
+/api/**                                      @api-owner @architecture-team
+/db/migration/**                             @data-owner @architecture-team
+/src/main/java/**/pricing/**                 @finance-owner @architecture-team
+/src/main/java/**/tax/**                     @finance-owner @legal-owner
+/src/main/java/**/payment/**                 @payments-owner @finance-owner
+/src/main/java/**/refund/**                  @finance-owner @support-owner
+/src/main/java/**/fraud/**                   @security-team @fraud-team
+/src/main/java/**/observability/**           @security-team @sre-team
+/src/test/**                                 @qa-team @architecture-team
+/CLAUDE.md                                   @architecture-team

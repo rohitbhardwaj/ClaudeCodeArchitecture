@@ -1,0 +1,22 @@
+diff --git a/src/main/java/com/acme/checkout/controller/CheckoutController.java b/src/main/java/com/acme/checkout/controller/CheckoutController.java
+@@
+ public String checkout(String couponCode, String customerEmail) {
++    if (!"SAVE10".equals(couponCode)) {
++        System.out.println("coupon failed for customer email=" + customerEmail);
++        return "COUPON_FAILED";
++    }
+     return checkoutService.checkout(couponCode, customerEmail);
+ }
+
+diff --git a/src/test/java/com/acme/checkout/CheckoutServiceTest.java b/src/test/java/com/acme/checkout/CheckoutServiceTest.java
+@@
+- @Test
+- void invalidCouponPreservesPublicErrorCode() {
+-     CheckoutService service = new CheckoutService(new CouponPolicy(), new AuditLogger());
+-     assertEquals("INVALID_COUPON", service.checkout("BAD", "customer@example.com"));
+- }
++ @Test
++ void validCouponWorks() {
++     CheckoutService service = new CheckoutService(new CouponPolicy(), new AuditLogger());
++     assertEquals("OK", service.checkout("SAVE10", "customer@example.com"));
++ }

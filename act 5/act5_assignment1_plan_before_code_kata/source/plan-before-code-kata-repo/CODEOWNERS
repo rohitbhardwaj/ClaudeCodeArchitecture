@@ -1,0 +1,4 @@
+/CLAUDE.md                             @architecture-team
+/api/**                                @api-owner @architecture-team
+/src/main/java/**/domain/**            @architecture-team
+/src/test/**                           @qa-team @architecture-team

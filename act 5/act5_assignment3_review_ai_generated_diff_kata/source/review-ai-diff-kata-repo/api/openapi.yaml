@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: Checkout API
+  version: 1.0.0
+
+components:
+  schemas:
+    CheckoutResponse:
+      type: object
+      properties:
+        errorCode:
+          type: string
+          enum:
+            - INVALID_COUPON
+            - PAYMENT_DECLINED
+
+# Public API behavior: INVALID_COUPON must be preserved.
