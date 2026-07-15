@@ -1,0 +1,4 @@
+date,check,failure_type,recommended_action
+2026-04-05,unit-tests,missing_failure_path_tests,update test prompt template
+2026-04-11,api-contract,error_code_changed,add API owner approval gate
+2026-04-18,security-scan,pii_logging,update PII scan and training

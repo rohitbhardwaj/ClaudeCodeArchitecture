@@ -1,0 +1,5 @@
+month,claude_assisted_prs,cycle_time_hours,avg_pr_files,review_rounds,review_minutes,failure_path_tests_added,post_merge_defects,security_findings,rollbacks,developer_survey_score
+2026-01,12,42,8,2.4,74,9,4,3,1,3.4
+2026-02,24,35,7,2.2,68,21,4,2,1,3.7
+2026-03,41,31,6,2.1,61,39,3,2,0,3.9
+2026-04,58,29,6,2.0,58,55,3,1,0,4.1

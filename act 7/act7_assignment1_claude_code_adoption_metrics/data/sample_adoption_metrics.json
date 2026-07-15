@@ -1,0 +1,54 @@
+[
+  {
+    "month": "2026-01",
+    "claude_assisted_prs": 12,
+    "cycle_time_hours": 42,
+    "avg_pr_files": 8,
+    "review_rounds": 2.4,
+    "review_minutes": 74,
+    "failure_path_tests_added": 9,
+    "post_merge_defects": 4,
+    "security_findings": 3,
+    "rollbacks": 1,
+    "developer_survey_score": 3.4
+  },
+  {
+    "month": "2026-02",
+    "claude_assisted_prs": 24,
+    "cycle_time_hours": 35,
+    "avg_pr_files": 7,
+    "review_rounds": 2.2,
+    "review_minutes": 68,
+    "failure_path_tests_added": 21,
+    "post_merge_defects": 4,
+    "security_findings": 2,
+    "rollbacks": 1,
+    "developer_survey_score": 3.7
+  },
+  {
+    "month": "2026-03",
+    "claude_assisted_prs": 41,
+    "cycle_time_hours": 31,
+    "avg_pr_files": 6,
+    "review_rounds": 2.1,
+    "review_minutes": 61,
+    "failure_path_tests_added": 39,
+    "post_merge_defects": 3,
+    "security_findings": 2,
+    "rollbacks": 0,
+    "developer_survey_score": 3.9
+  },
+  {
+    "month": "2026-04",
+    "claude_assisted_prs": 58,
+    "cycle_time_hours": 29,
+    "avg_pr_files": 6,
+    "review_rounds": 2.0,
+    "review_minutes": 58,
+    "failure_path_tests_added": 55,
+    "post_merge_defects": 3,
+    "security_findings": 1,
+    "rollbacks": 0,
+    "developer_survey_score": 4.1
+  }
+]

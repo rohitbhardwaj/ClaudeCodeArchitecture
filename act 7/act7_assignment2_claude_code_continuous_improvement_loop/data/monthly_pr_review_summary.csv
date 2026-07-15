@@ -1,0 +1,5 @@
+pr_id,claude_assisted,files_changed,review_comments,failure_path_tests,rollback_present,issue_theme
+PR-101,yes,18,14,0,no,large_pr_missing_tests
+PR-102,yes,5,4,3,yes,good_example
+PR-103,yes,11,9,1,no,missing_rollback
+PR-104,yes,7,6,0,yes,happy_path_only_tests

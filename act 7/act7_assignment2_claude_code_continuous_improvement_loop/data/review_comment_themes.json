@@ -1,0 +1,12 @@
+{
+  "architecture_boundary_comments": 8,
+  "security_or_pii_comments": 5,
+  "api_contract_comments": 6,
+  "test_quality_comments": 11,
+  "rollback_comments": 7,
+  "recommended_updates": [
+    "Add small PR slicing rule to CLAUDE.md",
+    "Add rollback required field to PR template",
+    "Add failure-path tests requirement to prompt templates"
+  ]
+}
