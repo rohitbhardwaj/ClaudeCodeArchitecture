@@ -1,0 +1,42 @@
+openapi: 3.0.0
+info:
+  title: Checkout API
+  version: 1.0.0
+
+paths:
+  /checkout:
+    post:
+      summary: Submit checkout
+      requestBody:
+        required: true
+      responses:
+        '200':
+          description: Checkout succeeded
+        '400':
+          description: Invalid request or invalid coupon
+        '402':
+          description: Payment declined
+        '409':
+          description: Inventory unavailable
+
+components:
+  schemas:
+    CheckoutResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+        orderId:
+          type: string
+        total:
+          type: number
+        errorCode:
+          type: string
+          enum:
+            - INVALID_REQUEST
+            - INVALID_COUPON
+            - PAYMENT_DECLINED
+            - INVENTORY_UNAVAILABLE
+
+# Teaching note:
+# A local fix in CheckoutService.java must not accidentally change public API error codes.
