@@ -1,0 +1,11 @@
+2026-07-11T10:14:21Z INFO checkout.completed orderId=ord-8821 customerId=cust-382 coupon=SUMMER25 total=84.92
+2026-07-11T10:15:04Z WARN coupon.rejected customerEmail=ro***@example.com coupon=SUMMER25 reason=invalid coupon
+2026-07-11T10:15:45Z WARN coupon.rejected customerEmail=am***@example.com coupon=summer25 reason=invalid coupon
+2026-07-11T10:16:12Z ERROR checkout.failed customerId=cust-901 reason=COUPON_VALIDATION_FAILED
+2026-07-11T10:17:33Z WARN coupon.rejected customerEmail=di***@example.com coupon=SUMMER25 reason=invalid coupon
+2026-07-11T10:18:08Z INFO checkout.completed orderId=ord-8822 customerId=cust-204 coupon=NONE total=129.10
+
+Teaching notes:
+- Partial email appears in logs.
+- coupon=summer25 lowercase may now be rejected due to case-sensitive validation.
+- Reason code is generic and not support-friendly.
