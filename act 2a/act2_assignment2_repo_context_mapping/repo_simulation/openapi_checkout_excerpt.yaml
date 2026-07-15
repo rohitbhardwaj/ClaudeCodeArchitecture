@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Checkout API
+  version: 1.0.0
+paths:
+  /checkout:
+    post:
+      summary: Submit checkout
+      responses:
+        '200':
+          description: Checkout succeeded
+        '400':
+          description: Invalid checkout request
+        '402':
+          description: Payment declined
+        '409':
+          description: Inventory unavailable
+
+# Teaching note:
+# API error codes and response shapes are part of the context.
+# Claude should not change these without approval.
